@@ -1,14 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rampart+One&family=ZCOOL+KuaiLe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fjalla+One&family=Rampart+One&family=Shadows+Into+Light&display=swap');
 
 *{
-	font-family: 'ZCOOL KuaiLe', cursive;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
 }
 
 h2{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Fjalla One', cursive;
+	font-size: 40px;
+	color: #598EBF;
 }
 
 h1{
 	font-family: 'Rampart One', cursive;
 	font-size: 50px;
+	color: #025373
+}
+
+img{
+	width: 300px;
+	border-radius: 50%;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+#landing, #gallery{
+	height: 80vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.tools{
+	padding: 25px;
+	height: 300px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+	color: white;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: "Fjalla One", cursive;
+}
+
+html{
+	scroll-behavior: smooth;
 }
