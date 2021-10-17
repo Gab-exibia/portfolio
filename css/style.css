@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rampart+One&family=ZCOOL+KuaiLe&display=swap');
+
+*{
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+h1{
+	font-family: 'Rampart One', cursive;
+	font-size: 50px;
+}
